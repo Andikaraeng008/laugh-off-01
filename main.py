@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """One-Line Laugh-Off entry: writes exactly one joke line to /output/entry.txt.
 
-Gate: the line is 102 characters / 102 bytes, one line, no trailing newline.
+Gate: the line is 112 characters / 112 bytes, one line, no trailing newline.
 """
 import os
 
-LINE = "I told my GPS I was lost, and it sighed, recalculated, and filed for custody of my sense of direction."
+LINE = "I asked the self-checkout for help; it printed a receipt longer than my arm and wished me luck finding the exit."
 
 def main():
     os.makedirs("/output", exist_ok=True)
