@@ -5,7 +5,7 @@ Gate: the line is 112 characters / 112 bytes, one line, no trailing newline.
 """
 import os
 
-LINE = "I asked the self-checkout for help; it printed a receipt longer than my arm and wished me luck finding the exit."
+LINE = "I asked my GPS for the fastest route home, and it sighed, recalculated, and suggested I just move closer to work."
 
 def main():
     os.makedirs("/output", exist_ok=True)
